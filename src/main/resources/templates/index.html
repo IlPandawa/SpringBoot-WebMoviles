@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <base href="/"/>
+    <link rel="stylesheet" href="/webjars/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <script src="/webjars/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/webjars/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/webjars/popper.js/1.16.1/umd/popper.min.js"></script>
+</head>
+<body>
+<h1>¡Bienvenid@!</h1>
+<h2>Saludos desde Spring Boot!!</h2>
+<main>
+    <form th:action="@{/login}" method="post">
+        <input type="submit" value="Sign In">
+    </form>
+</main>
+</body>
+
+</html>
