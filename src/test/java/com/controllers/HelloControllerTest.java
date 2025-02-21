@@ -3,7 +3,7 @@ package com.controllers;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.example.demo.controllers.HelloController;
+import com.example.demo.controllers.ViewController;
 
 import org.springframework.http.MediaType;
 
@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.hamcrest.Matchers.equalTo;
 import org.junit.jupiter.api.Test;
 
-@SpringBootTest(classes = HelloController.class)
+@SpringBootTest(classes = ViewController.class)
 @AutoConfigureMockMvc
 class HelloControllerTest {
 
